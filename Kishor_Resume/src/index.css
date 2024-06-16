@@ -48,24 +48,23 @@ h3 {
     
 }
 a {
-  color: inherit; /* Use the current text color */
-  text-decoration: none; /* Remove the underline */
+  color: inherit; 
+  text-decoration: none; 
 }
 
-/* Hover state */
+
 a:hover {
-  color: black; /* Change to your desired hover color */
-  text-decoration: underline; /* Add underline on hover if desired */
+  color: black; 
+  text-decoration: underline; 
 }
 
-/* Visited state */
 a:visited {
-  color: inherit; /* Use the current text color */
+  color: inherit; 
 }
 
-/* Active state */
+
 a:active {
-  color: #004085; /* Change to your desired active color */
+  color: #004085; 
 }
 .personal-info h1 {
     font-size: 2em;
@@ -226,7 +225,7 @@ li {
 .shimmer-text {
   font-size: 2em;
   font-weight: bold;
-  background: linear-gradient(90deg, #f0f0f0 25%, #c0c0c0 50%, #f0f0f0 75%);
+  background: linear-gradient(90deg, #f0f0f0 25%, #c0c0c0 50%, #f0f0f0 85%);
   background-size: 200% auto;
   color: #000;
   background-clip: text;
@@ -244,21 +243,3 @@ li {
   }
 }
 
-.shadow-text {
-  font-size: 2em;
-  font-weight: bold;
-  color: #333;
-  animation: shadow 1.5s infinite;
-}
-
-@keyframes shadow {
-  0% {
-      text-shadow: 2px 2px 5px #999;
-  }
-  50% {
-      text-shadow: 4px 4px 15px #666;
-  }
-  100% {
-      text-shadow: 2px 2px 5px #999;
-  }
-}
