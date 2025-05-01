@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className='parent-container'>
-      <div ><p className='rolling-text resume '>Resume</p></div>
+      <div ><p className='rolling-text resume '>Portfolio</p></div>
         <div className='personal-info-container '>
           <div className="personal-info scalineffect">
                 <div className="name shimmer-text  " style={{fontSize:"35px",fontWeight:600,}}>Kishorkumar K</div>
